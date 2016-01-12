@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246448F81C44D1A000B7AB61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 246448F71C44D1A000B7AB61 /* main.m */; };
+		246448FB1C44D1A000B7AB61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 246448FA1C44D1A000B7AB61 /* AppDelegate.m */; };
+		246448FE1C44D1A000B7AB61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 246448FD1C44D1A000B7AB61 /* ViewController.m */; };
+		246449011C44D1A000B7AB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246448FF1C44D1A000B7AB61 /* Main.storyboard */; };
+		246449031C44D1A000B7AB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 246449021C44D1A000B7AB61 /* Assets.xcassets */; };
+		246449061C44D1A000B7AB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246449041C44D1A000B7AB61 /* LaunchScreen.storyboard */; };
+		246449111C44D1A000B7AB61 /* TYLCopyLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 246449101C44D1A000B7AB61 /* TYLCopyLabelTests.m */; };
+		2464491C1C44D1A000B7AB61 /* TYLCopyLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464491B1C44D1A000B7AB61 /* TYLCopyLabelUITests.m */; };
+		2464492B1C44D1DD00B7AB61 /* TYLCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464492A1C44D1DD00B7AB61 /* TYLCopyLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2464490D1C44D1A000B7AB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 246448EB1C44D1A000B7AB61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246448F21C44D1A000B7AB61;
+			remoteInfo = TYLCopyLabel;
+		};
+		246449181C44D1A000B7AB61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 246448EB1C44D1A000B7AB61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 246448F21C44D1A000B7AB61;
+			remoteInfo = TYLCopyLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		246448F31C44D1A000B7AB61 /* TYLCopyLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYLCopyLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		246448F71C44D1A000B7AB61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		246448F91C44D1A000B7AB61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		246448FA1C44D1A000B7AB61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		246448FC1C44D1A000B7AB61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		246448FD1C44D1A000B7AB61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		246449001C44D1A000B7AB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		246449021C44D1A000B7AB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		246449051C44D1A000B7AB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		246449071C44D1A000B7AB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2464490C1C44D1A000B7AB61 /* TYLCopyLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYLCopyLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		246449101C44D1A000B7AB61 /* TYLCopyLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLCopyLabelTests.m; sourceTree = "<group>"; };
+		246449121C44D1A000B7AB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246449171C44D1A000B7AB61 /* TYLCopyLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYLCopyLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2464491B1C44D1A000B7AB61 /* TYLCopyLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLCopyLabelUITests.m; sourceTree = "<group>"; };
+		2464491D1C44D1A000B7AB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246449291C44D1DD00B7AB61 /* TYLCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLCopyLabel.h; sourceTree = "<group>"; };
+		2464492A1C44D1DD00B7AB61 /* TYLCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLCopyLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246448F01C44D1A000B7AB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246449091C44D1A000B7AB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246449141C44D1A000B7AB61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		246448EA1C44D1A000B7AB61 = {
+			isa = PBXGroup;
+			children = (
+				246448F51C44D1A000B7AB61 /* TYLCopyLabel */,
+				2464490F1C44D1A000B7AB61 /* TYLCopyLabelTests */,
+				2464491A1C44D1A000B7AB61 /* TYLCopyLabelUITests */,
+				246448F41C44D1A000B7AB61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		246448F41C44D1A000B7AB61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				246448F31C44D1A000B7AB61 /* TYLCopyLabel.app */,
+				2464490C1C44D1A000B7AB61 /* TYLCopyLabelTests.xctest */,
+				246449171C44D1A000B7AB61 /* TYLCopyLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		246448F51C44D1A000B7AB61 /* TYLCopyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				246449291C44D1DD00B7AB61 /* TYLCopyLabel.h */,
+				2464492A1C44D1DD00B7AB61 /* TYLCopyLabel.m */,
+				246448F91C44D1A000B7AB61 /* AppDelegate.h */,
+				246448FA1C44D1A000B7AB61 /* AppDelegate.m */,
+				246448FC1C44D1A000B7AB61 /* ViewController.h */,
+				246448FD1C44D1A000B7AB61 /* ViewController.m */,
+				246448FF1C44D1A000B7AB61 /* Main.storyboard */,
+				246449021C44D1A000B7AB61 /* Assets.xcassets */,
+				246449041C44D1A000B7AB61 /* LaunchScreen.storyboard */,
+				246449071C44D1A000B7AB61 /* Info.plist */,
+				246448F61C44D1A000B7AB61 /* Supporting Files */,
+			);
+			path = TYLCopyLabel;
+			sourceTree = "<group>";
+		};
+		246448F61C44D1A000B7AB61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				246448F71C44D1A000B7AB61 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2464490F1C44D1A000B7AB61 /* TYLCopyLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				246449101C44D1A000B7AB61 /* TYLCopyLabelTests.m */,
+				246449121C44D1A000B7AB61 /* Info.plist */,
+			);
+			path = TYLCopyLabelTests;
+			sourceTree = "<group>";
+		};
+		2464491A1C44D1A000B7AB61 /* TYLCopyLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2464491B1C44D1A000B7AB61 /* TYLCopyLabelUITests.m */,
+				2464491D1C44D1A000B7AB61 /* Info.plist */,
+			);
+			path = TYLCopyLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		246448F21C44D1A000B7AB61 /* TYLCopyLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246449201C44D1A000B7AB61 /* Build configuration list for PBXNativeTarget "TYLCopyLabel" */;
+			buildPhases = (
+				246448EF1C44D1A000B7AB61 /* Sources */,
+				246448F01C44D1A000B7AB61 /* Frameworks */,
+				246448F11C44D1A000B7AB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYLCopyLabel;
+			productName = TYLCopyLabel;
+			productReference = 246448F31C44D1A000B7AB61 /* TYLCopyLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2464490B1C44D1A000B7AB61 /* TYLCopyLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246449231C44D1A000B7AB61 /* Build configuration list for PBXNativeTarget "TYLCopyLabelTests" */;
+			buildPhases = (
+				246449081C44D1A000B7AB61 /* Sources */,
+				246449091C44D1A000B7AB61 /* Frameworks */,
+				2464490A1C44D1A000B7AB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2464490E1C44D1A000B7AB61 /* PBXTargetDependency */,
+			);
+			name = TYLCopyLabelTests;
+			productName = TYLCopyLabelTests;
+			productReference = 2464490C1C44D1A000B7AB61 /* TYLCopyLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		246449161C44D1A000B7AB61 /* TYLCopyLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246449261C44D1A000B7AB61 /* Build configuration list for PBXNativeTarget "TYLCopyLabelUITests" */;
+			buildPhases = (
+				246449131C44D1A000B7AB61 /* Sources */,
+				246449141C44D1A000B7AB61 /* Frameworks */,
+				246449151C44D1A000B7AB61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				246449191C44D1A000B7AB61 /* PBXTargetDependency */,
+			);
+			name = TYLCopyLabelUITests;
+			productName = TYLCopyLabelUITests;
+			productReference = 246449171C44D1A000B7AB61 /* TYLCopyLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		246448EB1C44D1A000B7AB61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lengain;
+				TargetAttributes = {
+					246448F21C44D1A000B7AB61 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					2464490B1C44D1A000B7AB61 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 246448F21C44D1A000B7AB61;
+					};
+					246449161C44D1A000B7AB61 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 246448F21C44D1A000B7AB61;
+					};
+				};
+			};
+			buildConfigurationList = 246448EE1C44D1A000B7AB61 /* Build configuration list for PBXProject "TYLCopyLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 246448EA1C44D1A000B7AB61;
+			productRefGroup = 246448F41C44D1A000B7AB61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				246448F21C44D1A000B7AB61 /* TYLCopyLabel */,
+				2464490B1C44D1A000B7AB61 /* TYLCopyLabelTests */,
+				246449161C44D1A000B7AB61 /* TYLCopyLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		246448F11C44D1A000B7AB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246449061C44D1A000B7AB61 /* LaunchScreen.storyboard in Resources */,
+				246449031C44D1A000B7AB61 /* Assets.xcassets in Resources */,
+				246449011C44D1A000B7AB61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2464490A1C44D1A000B7AB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246449151C44D1A000B7AB61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246448EF1C44D1A000B7AB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246448FE1C44D1A000B7AB61 /* ViewController.m in Sources */,
+				2464492B1C44D1DD00B7AB61 /* TYLCopyLabel.m in Sources */,
+				246448FB1C44D1A000B7AB61 /* AppDelegate.m in Sources */,
+				246448F81C44D1A000B7AB61 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246449081C44D1A000B7AB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246449111C44D1A000B7AB61 /* TYLCopyLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		246449131C44D1A000B7AB61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2464491C1C44D1A000B7AB61 /* TYLCopyLabelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2464490E1C44D1A000B7AB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246448F21C44D1A000B7AB61 /* TYLCopyLabel */;
+			targetProxy = 2464490D1C44D1A000B7AB61 /* PBXContainerItemProxy */;
+		};
+		246449191C44D1A000B7AB61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 246448F21C44D1A000B7AB61 /* TYLCopyLabel */;
+			targetProxy = 246449181C44D1A000B7AB61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		246448FF1C44D1A000B7AB61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246449001C44D1A000B7AB61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		246449041C44D1A000B7AB61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246449051C44D1A000B7AB61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2464491E1C44D1A000B7AB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2464491F1C44D1A000B7AB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		246449211C44D1A000B7AB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYLCopyLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanwell.TYLCopyLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		246449221C44D1A000B7AB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYLCopyLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanwell.TYLCopyLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		246449241C44D1A000B7AB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYLCopyLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanwell.TYLCopyLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYLCopyLabel.app/TYLCopyLabel";
+			};
+			name = Debug;
+		};
+		246449251C44D1A000B7AB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYLCopyLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanwell.TYLCopyLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYLCopyLabel.app/TYLCopyLabel";
+			};
+			name = Release;
+		};
+		246449271C44D1A000B7AB61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYLCopyLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanwell.TYLCopyLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYLCopyLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		246449281C44D1A000B7AB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYLCopyLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vanwell.TYLCopyLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYLCopyLabel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246448EE1C44D1A000B7AB61 /* Build configuration list for PBXProject "TYLCopyLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2464491E1C44D1A000B7AB61 /* Debug */,
+				2464491F1C44D1A000B7AB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246449201C44D1A000B7AB61 /* Build configuration list for PBXNativeTarget "TYLCopyLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246449211C44D1A000B7AB61 /* Debug */,
+				246449221C44D1A000B7AB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		246449231C44D1A000B7AB61 /* Build configuration list for PBXNativeTarget "TYLCopyLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246449241C44D1A000B7AB61 /* Debug */,
+				246449251C44D1A000B7AB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		246449261C44D1A000B7AB61 /* Build configuration list for PBXNativeTarget "TYLCopyLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246449271C44D1A000B7AB61 /* Debug */,
+				246449281C44D1A000B7AB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 246448EB1C44D1A000B7AB61 /* Project object */;
+}
