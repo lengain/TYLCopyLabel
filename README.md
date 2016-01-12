@@ -24,5 +24,5 @@ TYLCopyLabel是一个带有复制功能的UILabel,它的父类是UILabel,具体�
 import `TYLCopyLabel.h`
 # 项目系统要求
 在iOS6.0及以上系统上使用
-# 证书
+# 许可证
 TYLCopyLabel使用 MIT 许可证，详情见 LICENSE 文件
