@@ -15,7 +15,8 @@
 		246449061C44D1A000B7AB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 246449041C44D1A000B7AB61 /* LaunchScreen.storyboard */; };
 		246449111C44D1A000B7AB61 /* TYLCopyLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 246449101C44D1A000B7AB61 /* TYLCopyLabelTests.m */; };
 		2464491C1C44D1A000B7AB61 /* TYLCopyLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464491B1C44D1A000B7AB61 /* TYLCopyLabelUITests.m */; };
-		2464492B1C44D1DD00B7AB61 /* TYLCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464492A1C44D1DD00B7AB61 /* TYLCopyLabel.m */; };
+		2464492F1C44ED1E00B7AB61 /* TYLCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2464492E1C44ED1E00B7AB61 /* TYLCopyLabel.m */; };
+		246449341C44EFCC00B7AB61 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 246449361C44EFCC00B7AB61 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,12 @@
 		246449171C44D1A000B7AB61 /* TYLCopyLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYLCopyLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2464491B1C44D1A000B7AB61 /* TYLCopyLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYLCopyLabelUITests.m; sourceTree = "<group>"; };
 		2464491D1C44D1A000B7AB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		246449291C44D1DD00B7AB61 /* TYLCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLCopyLabel.h; sourceTree = "<group>"; };
-		2464492A1C44D1DD00B7AB61 /* TYLCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLCopyLabel.m; sourceTree = "<group>"; };
+		2464492D1C44ED1E00B7AB61 /* TYLCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLCopyLabel.h; sourceTree = "<group>"; };
+		2464492E1C44ED1E00B7AB61 /* TYLCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLCopyLabel.m; sourceTree = "<group>"; };
+		246449301C44EECE00B7AB61 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		246449311C44EECE00B7AB61 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		246449351C44EFCC00B7AB61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		246449371C44EFD200B7AB61 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +109,7 @@
 		246448F51C44D1A000B7AB61 /* TYLCopyLabel */ = {
 			isa = PBXGroup;
 			children = (
-				246449291C44D1DD00B7AB61 /* TYLCopyLabel.h */,
-				2464492A1C44D1DD00B7AB61 /* TYLCopyLabel.m */,
+				2464492C1C44ED1E00B7AB61 /* TYLCopyLabel */,
 				246448F91C44D1A000B7AB61 /* AppDelegate.h */,
 				246448FA1C44D1A000B7AB61 /* AppDelegate.m */,
 				246448FC1C44D1A000B7AB61 /* ViewController.h */,
@@ -122,6 +126,7 @@
 		246448F61C44D1A000B7AB61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				246449361C44EFCC00B7AB61 /* Localizable.strings */,
 				246448F71C44D1A000B7AB61 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -143,6 +148,15 @@
 				2464491D1C44D1A000B7AB61 /* Info.plist */,
 			);
 			path = TYLCopyLabelUITests;
+			sourceTree = "<group>";
+		};
+		2464492C1C44ED1E00B7AB61 /* TYLCopyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2464492D1C44ED1E00B7AB61 /* TYLCopyLabel.h */,
+				2464492E1C44ED1E00B7AB61 /* TYLCopyLabel.m */,
+			);
+			path = TYLCopyLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 246448EA1C44D1A000B7AB61;
 			productRefGroup = 246448F41C44D1A000B7AB61 /* Products */;
@@ -249,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				246449061C44D1A000B7AB61 /* LaunchScreen.storyboard in Resources */,
+				246449341C44EFCC00B7AB61 /* Localizable.strings in Resources */,
 				246449031C44D1A000B7AB61 /* Assets.xcassets in Resources */,
 				246449011C44D1A000B7AB61 /* Main.storyboard in Resources */,
 			);
@@ -276,7 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				246448FE1C44D1A000B7AB61 /* ViewController.m in Sources */,
-				2464492B1C44D1DD00B7AB61 /* TYLCopyLabel.m in Sources */,
+				2464492F1C44ED1E00B7AB61 /* TYLCopyLabel.m in Sources */,
 				246448FB1C44D1A000B7AB61 /* AppDelegate.m in Sources */,
 				246448F81C44D1A000B7AB61 /* main.m in Sources */,
 			);
@@ -318,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				246449001C44D1A000B7AB61 /* Base */,
+				246449301C44EECE00B7AB61 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -326,8 +343,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				246449051C44D1A000B7AB61 /* Base */,
+				246449311C44EECE00B7AB61 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		246449361C44EFCC00B7AB61 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				246449351C44EFCC00B7AB61 /* en */,
+				246449371C44EFD200B7AB61 /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,7 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TYLCopyLabel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vanwell.TYLCopyLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,7 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TYLCopyLabel/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vanwell.TYLCopyLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,6 +533,7 @@
 				246449221C44D1A000B7AB61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		246449231C44D1A000B7AB61 /* Build configuration list for PBXNativeTarget "TYLCopyLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +542,7 @@
 				246449251C44D1A000B7AB61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		246449261C44D1A000B7AB61 /* Build configuration list for PBXNativeTarget "TYLCopyLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +551,7 @@
 				246449281C44D1A000B7AB61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
