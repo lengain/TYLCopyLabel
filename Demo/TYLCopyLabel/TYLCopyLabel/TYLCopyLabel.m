@@ -8,7 +8,10 @@
 
 #import "TYLCopyLabel.h"
 
-@interface TYLCopyLabel ()
+@interface TYLCopyLabel (){
+    
+    UILongPressGestureRecognizer *longPress;  //长按手势
+}
 
 @property (nonatomic,strong)UIColor *normalColor;
 
@@ -40,10 +43,24 @@
     [self addLongPressGesture];
 }
 
+- (void)setIsClickCopy:(BOOL)isClickCopy{
+    
+    _isClickCopy = isClickCopy;
+    
+    if (isClickCopy) {
+        self.userInteractionEnabled = YES;
+        UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handCopyGesture:)];
+        [self addGestureRecognizer:tapGesture];
+        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(menuControllerWillHideMenu) name:UIMenuControllerWillHideMenuNotification object:nil];
+        
+        [self removeGestureRecognizer:longPress];
+    }
+}
+
 - (void)addLongPressGesture
 {
     self.userInteractionEnabled = YES;
-    UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(handleLongPressGesture:)];
+    longPress = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(handCopyGesture:)];
     [self addGestureRecognizer:longPress];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(menuControllerWillHideMenu) name:UIMenuControllerWillHideMenuNotification object:nil];
 }
@@ -63,12 +80,12 @@
 {
     if (!self.normalColor) {
         self.normalColor = self.backgroundColor;
-        self.backgroundColor = [UIColor colorWithRed:((float)((0xc7c7c5 & 0xFF0000) >> 16))/255.0 green:((float)((0xc7c7c5 & 0xFF00) >> 8))/255.0 blue:((float)(0xc7c7c5 & 0xFF))/255.0 alpha:1.0];
+        self.backgroundColor = self.highLightColor?:[UIColor colorWithRed:((float)((0xc7c7c5 & 0xFF0000) >> 16))/255.0 green:((float)((0xc7c7c5 & 0xFF00) >> 8))/255.0 blue:((float)(0xc7c7c5 & 0xFF))/255.0 alpha:1.0];
     }
 }
 
 
-- (void)handleLongPressGesture:(UILongPressGestureRecognizer *)longPress
+- (void)handCopyGesture:(id)gusture
 {
     if ([UIMenuController sharedMenuController].menuVisible) {
         return;

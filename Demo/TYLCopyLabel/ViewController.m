@@ -26,13 +26,15 @@
     
     TYLCopyLabel *copyLabel2 = [[TYLCopyLabel alloc]initWithFrame:CGRectMake(10, 140, self.view.frame.size.width - 20, 30)];
     copyLabel2.text = @"This is a copy Lable,plase try with longPress Gesture";
+    copyLabel2.highLightColor = [UIColor redColor];
     copyLabel2.numberOfLines = 0;
     CGSize autoSize2 = [copyLabel2 sizeThatFits:CGSizeMake(self.view.frame.size.width - 20, 100)];
     copyLabel2.frame = CGRectMake(10, copyLabel1.frame.origin.y + copyLabel1.frame.size.height + 20, autoSize2.width, autoSize2.height);
     [self.view addSubview:copyLabel2];
     
     TYLCopyLabel *copyLabel3 = [[TYLCopyLabel alloc]initWithFrame:CGRectMake(10, 140, self.view.frame.size.width - 20, 30)];
-    copyLabel3.text = @"This is a copy Lable";
+    copyLabel3.isClickCopy = YES;
+    copyLabel3.text = @"This is a copy Lable 点击复制即可";
     copyLabel3.numberOfLines = 0;
     CGSize autoSize3 = [copyLabel3 sizeThatFits:CGSizeMake(self.view.frame.size.width - 20, 100)];
     copyLabel3.frame = CGRectMake(10, copyLabel2.frame.origin.y + copyLabel2.frame.size.height + 20, autoSize3.width, autoSize3.height);
