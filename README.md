@@ -9,7 +9,7 @@ TYLCopyLabel is a UILabel which use the UIMenuController interface and UIPastebo
 * set tap gesture to pop-up the UIMenuController
 
 # Demo Project
-See `TYLCopyLabel.xcodeproj`
+See `TYLCopyLabel.xcodeproj`<br><br>
   <img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/English.gif" width="320">
 # How to use
 import `TYLCopyLabel.h`
@@ -25,7 +25,7 @@ TYLCopyLabel是一个带有复制功能的UILabel,它的父类是UILabel,具体�
 * 也可以设置为点击弹出UIMenuController
 
 # 演示项目
-查看并运行`TYLCopyLabel.xcodeproj`
+查看并运行`TYLCopyLabel.xcodeproj`<br><br>
   <img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/Chinese.gif" width="320"> 
 # 用法
 import `TYLCopyLabel.h`
