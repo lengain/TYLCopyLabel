@@ -10,8 +10,7 @@ TYLCopyLabel is a UILabel which use the UIMenuController interface and UIPastebo
 
 # Demo Project
 See `TYLCopyLabel.xcodeproj`
-
-<img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/Simulator%20Screen%20Shot%202016%E5%B9%B41%E6%9C%8812%E6%97%A5%2016.28.02.png" width="320"> <img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/Simulator%20Screen%20Shot%202016%E5%B9%B41%E6%9C%8812%E6%97%A5%2016.28.12.png" width="320"><br/>
+  <img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/English.gif" width="320">
 # How to use
 import `TYLCopyLabel.h`
 # Requirements
@@ -27,9 +26,7 @@ TYLCopyLabel是一个带有复制功能的UILabel,它的父类是UILabel,具体�
 
 # 演示项目
 查看并运行`TYLCopyLabel.xcodeproj`
-
-<img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/Simulator%20Screen%20Shot%202016%E5%B9%B41%E6%9C%8812%E6%97%A5%2015.49.28.png" width="320"> <img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/Simulator%20Screen%20Shot%202016%E5%B9%B41%E6%9C%8812%E6%97%A5%2015.49.40.png" width="320"><br/>
-
+  <img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/Chinese.gif" width="320"> 
 # 用法
 import `TYLCopyLabel.h`
 # 项目系统要求
