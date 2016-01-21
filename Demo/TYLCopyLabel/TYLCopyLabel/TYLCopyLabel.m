@@ -43,11 +43,10 @@
     [self addLongPressGesture];
 }
 
-- (void)setIsClickCopy:(BOOL)isClickCopy{
+- (void)setClickCopy:(BOOL)clickCopy{
     
-    _isClickCopy = isClickCopy;
-    
-    if (isClickCopy) {
+    _clickCopy = clickCopy;
+    if (clickCopy) {
         self.userInteractionEnabled = YES;
         UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handCopyGesture:)];
         [self addGestureRecognizer:tapGesture];
