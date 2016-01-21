@@ -34,7 +34,7 @@
     
     TYLCopyLabel *copyLabel3 = [[TYLCopyLabel alloc]initWithFrame:CGRectMake(10, 140, self.view.frame.size.width - 20, 30)];
     copyLabel3.clickCopy = YES;
-    copyLabel3.text = @"This is a copy Lable 点击复制即可";
+    copyLabel3.text = @"This is a copy Lable,plase try with tap Gesture";
     copyLabel3.numberOfLines = 0;
     CGSize autoSize3 = [copyLabel3 sizeThatFits:CGSizeMake(self.view.frame.size.width - 20, 100)];
     copyLabel3.frame = CGRectMake(10, copyLabel2.frame.origin.y + copyLabel2.frame.size.height + 20, autoSize3.width, autoSize3.height);
