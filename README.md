@@ -12,7 +12,9 @@ TYLCopyLabel is a UILabel which use the UIMenuController interface and UIPastebo
 See `TYLCopyLabel.xcodeproj`<br><br>
   <img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/English.gif" width="320">
 # How to use
-import `TYLCopyLabel.h`
+    import `TYLCopyLabel.h`
+## cocoapods
+    pod 'TYLCopyLabel'
 # Requirements
 This class requires a deployment target of iOS 6.0 or greater.
 # License
@@ -28,7 +30,9 @@ TYLCopyLabel是一个带有复制功能的UILabel,它的父类是UILabel,具体�
 查看并运行`TYLCopyLabel.xcodeproj`<br><br>
   <img src="https://github.com/lengain/TYLCopyLabel/blob/master/Demo/Snapshots/Chinese.gif" width="320"> 
 # 用法
-import `TYLCopyLabel.h`
+    import `TYLCopyLabel.h`
+## cocoapods
+    pod 'TYLCopyLabel'
 # 项目系统要求
 在iOS6.0及以上系统上使用
 # 许可证
